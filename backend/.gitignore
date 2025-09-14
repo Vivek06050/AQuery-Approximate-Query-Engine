@@ -1,0 +1,141 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+out/
+.esbuild/
+.next/
+.nuxt/
+.cache/
+.vite/
+public/build/
+coverage/
+
+# Static site hosts / deploy
+.vercel/
+.netlify/
+firebase.json
+firebase-debug.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+debug.log*
+/tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Editor/temp files
+*.swp
+*.swo
+*~
+.#*
+*.orig
+
+# Test / coverage
+coverage/
+*.lcov
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Python (if mixing languages)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+pip-log.txt
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Ruby
+*.gem
+.bundle
+vendor/bundle
+log/
+tmp/
+
+# Go
+bin/
+*.exe
+
+# C / C++
+*.o
+*.obj
+*.so
+*.exe
+
+# Typescript build
+*.tsbuildinfo
+
+# Parcel / cache
+.cache/
+.parcel-cache/
+
+# Package managers caches
+.pnpm-store/
+.npm/
+
+# Certificates, security files
+*.pem
+*.key
+*.csr
+
+# IDE-specific secrets or local settings
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/modules.xml
+.idea/.idea.*
+
+# Misc useful ignores
+coverage/
+reports/
+*.sqlite
+*.db
+*.db-journal
+
+# If you use Docker with local volumes
+volumes/
+
+# Git hooks (if you generate them locally)
+hooks/
+
+# Lockfiles for other package managers (if used)
+pnpm-lock.yaml
+
+# End
