@@ -18,7 +18,6 @@ AQuery is a high-performance approximate query processing engine designed for la
 1. Clone the repository:
    ```
 git clone https://github.com/Vivek06050/Approximate-Query-Engine
-cd aquery
 ```
 2. Backend setup:
    ```
@@ -32,8 +31,6 @@ node server.js
 4. Frontend setup:
    - Serve frontend from `/frontend` directory, e.g.:
      ```
-cd frontend
-python -m http.server 5500
 ```
    - Access at `http://localhost:5500`
 
